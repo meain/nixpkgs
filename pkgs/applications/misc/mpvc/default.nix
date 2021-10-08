@@ -25,6 +25,6 @@ stdenv.mkDerivation {
     homepage = "https://github.com/wildefyr/mpvc";
     license = licenses.mit;
     maintainers = [ maintainers.neeasade ];
-    platforms = platforms.linux;
+    platforms = platforms.linux ++ platforms.darwin;
   };
 }
